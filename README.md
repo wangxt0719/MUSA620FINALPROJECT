@@ -44,7 +44,8 @@ In this page section, we choose to use Philadelphia's neighborhood map, sorting 
 In the right corner of the page is the correlation scatter plot between different variables - when users choose different display factors from the two list "Select Feature to Plot" and "Select a Visualization Option", the plot will show the correlation plot of the two factors to decide if there's spatial coefficients. 
 
 #### Page 3: Club Popularity
-
+During the game time, people tend to visit bars in the town, gathering around the bar table, holding a beer and watching the exicted games. So we made a hypothesis that the bar will have much more visitors than usual. We have collected the geographic information of the top popular= bars in the City of Philadelphia, and we spatial join the bar area with devices map inside ArcMap, so that we can know during the game time, how many people gathered at which bars in town, and which one is the most popular bars for football fans.
+![quicklook] 
 
 
 
