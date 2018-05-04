@@ -39,8 +39,11 @@ In this page, we mapped the location of collected phone devices inside the City 
 In the app interface, users could choose different time period to check people's density for each region in different dates. 
 
 #### Page 2: Block Popularity Visualization
-![qicklook]
+In this page section, we choose to use Philadelphia's neighborhood map, sorting the device location data by using neighborhood as our calculation units. There are total of 318 neighborhood area in Philly. User could click each individual neighborhood area to closely check this neighborhood's detailed information - the crime rate; neighborhood population; the income level of this neighborhood... The neighborhood polygon map also follow the time lines - it displays the neighborhood's device density by using three time periods - before game; during the game and after the game. So that users could check the spatial pattern of device density during different time by using the neighborhood information as a reference. 
+![qicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic2.jpg)
+In the right corner of the page is the correlation scatter plot between different variables - when users choose different display factors from the two list "Select Feature to Plot" and "Select a Visualization Option", the plot will show the correlation plot of the two factors to decide if there's spatial coefficients. 
 
+#### Page 3: Club Popularity
 
 
 
