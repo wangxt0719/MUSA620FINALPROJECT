@@ -34,7 +34,7 @@ write.csv(random_before,"random_before.csv")
 The finished Shiny app contains three pages: The Animation Heat Map ; The Block Popularity Visualization Map and The Super Bowl Night Popular Club Visualization.
 
 #### Page 1: Philadelphia People's Traveling Pattern Heat Map
-![quicklook] (https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic1.jpg)
+![quicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic1.jpg)
 
 
 
