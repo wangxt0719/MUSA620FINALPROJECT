@@ -35,8 +35,11 @@ The finished Shiny app contains three pages: The Animation Heat Map ; The Block 
 
 #### Page 1: Philadelphia People's Traveling Pattern Heat Map
 ![quicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic1.jpg)
+In this page, we mapped the location of collected phone devices inside the City of Philadelphia. We use the Heat Map as a good way to display the density of devices in the spatial map. Through giving the background map a dark color, we could clearly observe, during the certain time period, each device's location in the map and people's density for certain region areas. 
+In the app interface, users could choose different time period to check people's density for each region in different dates. 
 
-
+#### Page 2: Block Popularity Visualization
+![qicklook]
 
 
 
