@@ -1,7 +1,7 @@
 ## MUSA620 FINAL PROJECT 
 ### - Super Bowl /Philly Eagle with Philadelphia
-## Project Created By Fangnan Du / Xiaotong Wang
-This is the ReadMe file for the MUSA 620's final project. The main focus of this project is about the data of Super Bowl 2018. The Super Bowl 2018 was played in Feb 2018 at U.S. Bank Stadium in Minneapolis, between the team New England Patriots and Philadelphia Eagles, and the Philadelphia Eagles finally beats the England Patriots, becoming the winner. The local residents of Philadelphia has huge passion toward the game. As Penn students we can personally feel the graet happiness that the city of Philadelphia has when our local team wins the great game. At the same time, our team has strong interest in people's activity pattern during the game period.
+#### Project Created By Fangnan Du / Xiaotong Wang
+This is the ReadMe file for the MUSA 620's final project. The main focus of this project is about the data of Super Bowl 2018. The Super Bowl 2018 was played in Feb 2018 at U.S. Bank Stadium in Minneapolis, between the team New England Patriots and Philadelphia Eagles, and the Philadelphia Eagles finally beat the England Patriots, becoming the winner. The residents of Philadelphia has enormous passion toward the game. As Penn students, we can personally feel the great happiness that the city of Philadelphia has when our local team wins the great game. At the same time, our team has a strong interest in people's activity pattern during the game period.
 Through collecting the remote sensing data that people's phone generated from Feb 1 to Feb 5, our primary goal will be monitoring the people's movement and travel pattern through the game period inside the border of City Philadelphia. 
 ## Assignment Steps:
 #### - Step 1 
@@ -19,8 +19,8 @@ We have seperated the five date into three time periods and we have plotted peop
 - the time section during the game (Feb 4 18:00 pm - 22:00 pm);
 - the time section after the game (Feb 4 22:00 pm - Feb 5)
 
-For each time period, we have clipped the data to count points inside the City of Philadelphia only, and we have used the "sample" function in R to extract 20,000 sample points for each time period, because the very initial large data contents will slow the working process. After the data cleaning and reformating, we have 20000 device geological records for each time segment, total of 60,000 device records usec in the analyzing process.
-We then installed the points into ArcMap, using the Philly's demographic data (medium rents; medium region income, etc) and the crime data to spatial join with points, so that the point layer will contain more sophisticated spatial information.
+For each period, we have clipped the data to count points inside the City of Philadelphia only, and we have used the "sample" function in R to extract 20,000 sample points for each period, because the very initial large data contents will slow the working process. After the data cleaning and reformating, we have 20000 device geological records for each time segment, a total of 60,000 device records used in the analyzing process.
+We then installed the points into ArcMap, using Philly's demographic data (medium rents; average region income, etc.) and the crime data to spatial join with points, so that the point layer will contain more sophisticated spatial information.
 When we have projected point data and Philly neighborhood data, we then installed the data back into the R, starting the next step.
 
 ___
@@ -43,11 +43,11 @@ ___
 
 #### Page 2: Block Popularity Visualization
 ##### Page Highlights
-In this page section, we choose to use Philadelphia's neighborhood map, sorting the device location data by using neighborhood as our calculation units. There are total of 318 neighborhood area in Philly. 
-- User could click each individual neighborhood area to closely check this neighborhood's detailed information - the crime rate; neighborhood population; the income level of this neighborhood... 
-- The neighborhood polygon map also follow the time lines - it displays the neighborhood's device density by using three time periods - before game; during the game and after the game. So that users could check the spatial pattern of device density during different time by using the neighborhood information as a reference. User could click the right top list to change spatial factors they want to visualize, and they can also switch from the three time periods. 
+In this page section, we choose to use Philadelphia's neighborhood map, sorting the device location data by using the neighborhood as our calculation units. There is a total of 318 neighborhood area in Philly. 
+- The user could click each neighborhood area to closely check this neighborhood's detailed information - the crime rate; neighborhood population; the income level of this neighborhood... 
+- The neighborhood polygon map also follow the timelines - it displays the neighborhood's device density by using three time periods - before the game; during the game and after the game. So that users could check the spatial pattern of device density during different time by using the neighborhood information as a reference. The user could click the right top list to change spatial factors they want to visualize, and they can also switch from the three time periods. 
 
--In the right corner of the page is the correlation scatter plot between different variables - when users choose different display factors from the two list "Select Feature to Plot" and "Select a Visualization Option", the plot will show the correlation plot of the two factors to decide if there's spatial coefficients. 
+-In the right corner of the page is the correlation scatter plot between different variables - when users choose different display factors from the two list "Select Feature to Plot" and "Select a Visualization Option," the plot will show the correlation plot of the two elements to decide if there are spatial coefficients. 
 ![qicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic2.jpg)
 
 ___
