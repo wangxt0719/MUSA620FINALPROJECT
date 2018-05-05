@@ -32,7 +32,7 @@ The finished Shiny app contains three pages: The Animation Heat Map ; The Block 
 ___
 
 #### Page 1: Philadelphia People's Traveling Pattern Heat Map
-![show1](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic1.jpg)
+![show1](https://cdn.rawgit.com/wangxt0719/MUSA620FINALPROJECT/f2b38753/pic1.jpg width="400" height="300")
 In this page, we mapped the location of collected phone devices inside the City of Philadelphia. We use the Heat Map as a good way to display the density of devices in the spatial map. 
 ##### Page Highlights
 - Through giving the background map a dark color, we could clearly observe, during the certain time period, each device's location in the map and people's density for certain region areas. 
@@ -60,14 +60,14 @@ During the game time, people tend to visit bars in the town, gathering around th
 - In the bottom of the page is the sentiment analysis table, showing the top five most often used emojis that relates to each bar in the Twitter. User could choose the bar's name in the bottom list to view the different bar's emoji table.
 
 The Large Scale Bar Map -The location of Most Popular 15 bars in Philadelphia (2018)
-![show2](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic3.jpg) 
+![show3](https://cdn.rawgit.com/wangxt0719/MUSA620FINALPROJECT/f2b38753/pic3.jpg width="400" height="300") 
 
 The Small Scale Bar Map - The most popular bars in the Super Bowl night (bars with top 5 dense population)
 In the center of each bar circle is the number of devices that fall into the bar area during the game time (how many people stay at the bar to watch the game)
-![show3](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic4.jpg)
+![show4](https://cdn.rawgit.com/wangxt0719/MUSA620FINALPROJECT/f2b38753/pic4.jpg width="400" height="300")
 
 After deciding which bar is the most popular one in the Super Bowl night, we are very curious about people's sentiments when they staying at the most popular bar of the night, so we use the rtweet package in R to collect 1000 tweets about the top 3 popular bars of the night and do a sentiment analysis to each of bars - so that we can see when people mentioned those bars in the Twitter, what's their feeling about the bar. :+1:
-![show4](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic5.jpg)
+![show5](https://cdn.rawgit.com/wangxt0719/MUSA620FINALPROJECT/f2b38753/pic5.jpg width="400" height="300")
 
 ___
 
