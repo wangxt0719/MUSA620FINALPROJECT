@@ -18,18 +18,8 @@ We have seperated the five date into three time periods and we have plotted peop
 - the time section during the game (Feb 4 18:00 pm - 22:00 pm);
 - the time section after the game (Feb 4 22:00 pm - Feb 5)
 
-For each time period, we have clipped the data to count points inside the City of Philadelphia only, and we have used the "sample" function in R to extract 20,000 sample points for each time period, because the very initial large data contents will slow the working process.
-#### Basic Codes for Data Cleaning and Data Formating
-```
-during_game<- movement [18028750:18968862,]
-before_small <- before[sample(nrow(before_small), 540113), ]
-write.csv(before_small, "before_small.csv")
-after_game <- movement[18968863:24039869,]
-random_after <- after_game[sample(nrow(after_game),940113),]
-write.csv(random_after,file = "random_after.csv")
-write.csv(during_game,"during_game.csv")
-write.csv(random_before,"random_before.csv")
-```
+For each time period, we have clipped the data to count points inside the City of Philadelphia only, and we have used the "sample" function in R to extract 20,000 sample points for each time period, because the very initial large data contents will slow the working process. After the data cleaning and reformating, we have 20000 device geological records for each time segment, total of 60,000 device records usec in the analyzing process.
+
 ## Building the Shiny Interactive App
 The finished Shiny app contains three pages: The Animation Heat Map ; The Block Popularity Visualization Map and The Super Bowl Night Popular Club Visualization.
 
@@ -59,7 +49,19 @@ After deciding which bar is the most popular one in the Super Bowl night, we are
 ![quicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic5.jpg)
 
 
+## Codes Behind the Screen 
 
+#### Codes for Data Cleaning and Reformating
+```
+during_game<- movement [18028750:18968862,]
+before_small <- before[sample(nrow(before_small), 540113), ]
+write.csv(before_small, "before_small.csv")
+after_game <- movement[18968863:24039869,]
+random_after <- after_game[sample(nrow(after_game),940113),]
+write.csv(random_after,file = "random_after.csv")
+write.csv(during_game,"during_game.csv")
+write.csv(random_before,"random_before.csv")
+```
 
 
 
