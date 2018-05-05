@@ -42,9 +42,11 @@ In this page, we mapped the location of collected phone devices inside the City 
 ___
 
 #### Page 2: Block Popularity Visualization
+##### Page Highlights
 In this page section, we choose to use Philadelphia's neighborhood map, sorting the device location data by using neighborhood as our calculation units. There are total of 318 neighborhood area in Philly. 
 - User could click each individual neighborhood area to closely check this neighborhood's detailed information - the crime rate; neighborhood population; the income level of this neighborhood... 
 - The neighborhood polygon map also follow the time lines - it displays the neighborhood's device density by using three time periods - before game; during the game and after the game. So that users could check the spatial pattern of device density during different time by using the neighborhood information as a reference. User could click the right top list to change spatial factors they want to visualize, and they can also switch from the three time periods. 
+
 -In the right corner of the page is the correlation scatter plot between different variables - when users choose different display factors from the two list "Select Feature to Plot" and "Select a Visualization Option", the plot will show the correlation plot of the two factors to decide if there's spatial coefficients. 
 ![qicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic2.jpg)
 
@@ -52,7 +54,7 @@ ___
 
 #### Page 3: Club Popularity
 During the game time, people tend to visit bars in the town, gathering around the bar table, holding a beer and watching the exicted games. So we made a hypothesis that the bar will have much more visitors than usual. 
-##### Highlights
+##### Page Highlights
 - We have collected the geographic information of the top popular bars in the City of Philadelphia, and we spatial join the bar area with devices map inside ArcMap, so that we can know during the game time, how many people gathered at which bars in town, and which one is the most popular bars for football fans.
 - We have dealed with the bar's visitor density by using two spatial scales - the large scale and the small scale. Reader could zoom in and zoom out in the map to choose the map scale they want to view.
 - In the bottom of the page is the sentiment analysis table, showing the top five most often used emojis that relates to each bar in the Twitter. User could choose the bar's name in the bottom list to view the different bar's emoji table.
