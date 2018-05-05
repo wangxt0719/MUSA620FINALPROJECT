@@ -49,6 +49,7 @@ We have dealed with the bar's visitor density by using two spatial scales - the 
 The Large Scale Bar Map -The location of Most Popular 15 bars in Philadelphia (2018)
 ![quicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic3.jpg) 
 The Small Scale Bar Map - The most popular bars in the Super Bowl night (bars with top 5 dense population)
+![quicklook](
 
 
 
