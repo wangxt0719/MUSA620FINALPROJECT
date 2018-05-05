@@ -45,7 +45,12 @@ In the right corner of the page is the correlation scatter plot between differen
 
 #### Page 3: Club Popularity
 During the game time, people tend to visit bars in the town, gathering around the bar table, holding a beer and watching the exicted games. So we made a hypothesis that the bar will have much more visitors than usual. We have collected the geographic information of the top popular= bars in the City of Philadelphia, and we spatial join the bar area with devices map inside ArcMap, so that we can know during the game time, how many people gathered at which bars in town, and which one is the most popular bars for football fans.
-![quicklook] 
+We have dealed with the bar's visitor density by using two spatial scales - the large scale and the small scale
+The Large Scale Bar Map -The location of Most Popular 15 bars in Philadelphia (2018)
+![quicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic3.jpg) 
+The Small Scale Bar Map - The most popular bars in the Super Bowl night (bars with top 5 dense population)
+
+
 
 
 
