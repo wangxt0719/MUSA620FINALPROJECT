@@ -48,7 +48,7 @@ In this page section, we choose to use Philadelphia's neighborhood map, sorting 
 - The neighborhood polygon map also follow the timelines - it displays the neighborhood's device density by using three time periods - before the game; during the game and after the game. So that users could check the spatial pattern of device density during different time by using the neighborhood information as a reference. The user could click the right top list to change spatial factors they want to visualize, and they can also switch from the three time periods. 
 
 -In the right corner of the page is the correlation scatter plot between different variables - when users choose different display factors from the two list "Select Feature to Plot" and "Select a Visualization Option," the plot will show the correlation plot of the two elements to decide if there are spatial coefficients. 
-![show2](https://cdn.rawgit.com/wangxt0719/MUSA620FINALPROJECT/eceefb8b/pic2.jpg)
+![show2](https://cdn.rawgit.com/wangxt0719/MUSA620FINALPROJECT/eceefb8b/pic2.jpg width="400" height="300")
 
 ___
 
