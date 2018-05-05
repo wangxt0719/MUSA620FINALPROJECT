@@ -45,11 +45,18 @@ In the right corner of the page is the correlation scatter plot between differen
 
 #### Page 3: Club Popularity
 During the game time, people tend to visit bars in the town, gathering around the bar table, holding a beer and watching the exicted games. So we made a hypothesis that the bar will have much more visitors than usual. We have collected the geographic information of the top popular= bars in the City of Philadelphia, and we spatial join the bar area with devices map inside ArcMap, so that we can know during the game time, how many people gathered at which bars in town, and which one is the most popular bars for football fans.
-We have dealed with the bar's visitor density by using two spatial scales - the large scale and the small scale
+We have dealed with the bar's visitor density by using two spatial scales - the large scale and the small scale.
+
 The Large Scale Bar Map -The location of Most Popular 15 bars in Philadelphia (2018)
 ![quicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic3.jpg) 
+
 The Small Scale Bar Map - The most popular bars in the Super Bowl night (bars with top 5 dense population)
-![quicklook](
+In the center of each bar circle is the number of devices that fall into the bar area during the game time (how many people stay at the bar to watch the game)
+![quicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic4.jpg)
+
+After deciding which bar is the most popular one in the Super Bowl night, we are very curious about people's sentiments when they staying at the most popular bar of the night, so we use the rtweet package in R to collect 1000 tweets about the top 3 popular bars of the night and do a sentiment analysis to each of bars - so that we can see when people mentioned those bars in the Twitter, what's their feeling about the bar. We have extract the tweet text that contains emojis inside, so that we can see what emojis people mostly used when they talked about this bar. We made a table for the top five most popular emojis for each bar, and people can swich the table by choosing from the list. 
+:+1:
+
 
 
 
