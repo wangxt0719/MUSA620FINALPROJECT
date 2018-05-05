@@ -56,6 +56,7 @@ In the center of each bar circle is the number of devices that fall into the bar
 
 After deciding which bar is the most popular one in the Super Bowl night, we are very curious about people's sentiments when they staying at the most popular bar of the night, so we use the rtweet package in R to collect 1000 tweets about the top 3 popular bars of the night and do a sentiment analysis to each of bars - so that we can see when people mentioned those bars in the Twitter, what's their feeling about the bar. We have extract the tweet text that contains emojis inside, so that we can see what emojis people mostly used when they talked about this bar. We made a table for the top five most popular emojis for each bar, and people can swich the table by choosing from the list. 
 :+1:
+![quicklook](https://github.com/wangxt0719/MUSA620FINALPROJECT/blob/master/pic5.jpg)
 
 
 
